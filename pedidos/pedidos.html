@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Formatadas com CSS</title>
+    <link rel="stylesheet" href="pedidos.css">
+</head>
+
+<body>
+
+    <h1>Tabelas Formatadas com CSS</h1>
+    <h2>Tabela 01: produtos</h2>
+
+    <!-- -------------------------------------- -->
+
+    <table class="tabela01">
+        <!-- Cabeçalho da tabela -->
+        <thead>
+            <!-- Linha do cabeçalho -->
+            <tr>
+                <!-- Conteúdo (celula) do cabeçalho -->
+                <th>Imagem do produto</th>
+                <th>Nome do produto</th>
+                <th>Preço</th>
+                <th>Comprar</th>
+            </tr>
+        </thead>
+
+        <!-- Corpo da tabela -->
+        <tbody>
+            <!-- linha do corpo da tabela -->
+            <tr>
+                <!-- Imagem do produto -->
+                <td>
+                    <img src="/produtos/img/monitores-computador-para-trabalho-e-jogos.jpg" width="50px"
+                        alt="Monitor de computador">
+                </td>
+
+                <!-- Nome desse produto -->
+                <td>Monitor</td>
+
+                <!-- Preço do produto -->
+                <td>R$ 75,50</td>
+
+                <!-- Botão padrâo (button) para compra -->
+                <td><button>Comprar</button></td>
+            </tr>
+
+            <tr>
+
+                <td>
+                    <img src="/produtos/img/tablets-ios-android-para-estudos-e-jogos.jpg" width="50px"
+                        alt="Tablet ios Apple">
+                </td>
+                <td>Tablet iOS</td>
+                <td>R$ 2500,50 </td>
+                <td><button>Comprar</button></td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+                    <img src="/produtos/img/celulares-ios-android-para-jogos-e-trabalho.jpg" width="50px"
+                        alt="Celulares ios Apple">
+                </td>
+                <td>Celular iOS</td>
+                <td>R$ 1500,50</td>
+                <td><button>Comprar</button></td>
+
+            </tr>
+
+
+        </tbody>
+
+    </table>
+
+    <!-- -------------------------------------- -->
+
+    <h2>Tabela 02: histórico de pedidos</h2>
+
+    <!-- -------------------------------------- -->
+
+    <table class="tabela02">
+
+        <thead>
+            <tr>
+                <th>Número do pedido</th>
+                <th>Data</th>
+                <th>Valor Total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- tablet e monitor -->
+            <tr>
+                <td>1553</td>
+                <td>2024-12-05</td>
+                <td>R$ 2576,00</td>
+                <td>Entregue</td>
+            </tr>
+
+            <!-- celular -->
+            <tr>
+                <td>1554</td>
+                <td>2024-04-01</td>
+                <td>R$ 1500,50</td>
+                <td>Compra em andamento</td>
+            </tr>
+
+            <!-- celular e tablet -->
+            <tr>
+                <td>1555</td>
+                <td>2024-11-20</td>
+                <td>R$ 4001,00</td>
+                <td>Aguardando pagamento</td>
+            </tr>
+        </tbody>
+    
+    </table>
+
+</body>
+
+</html>
