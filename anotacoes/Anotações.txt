@@ -1,0 +1,5 @@
+Sempre criar um css e um html de mesmo nome, para formatar em partes.
+
+tr = table row, linha da tabela.
+th = table header, cabeçalho da linha.
+td = table data, conteúdo da linha.
